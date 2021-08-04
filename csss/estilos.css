@@ -1,0 +1,629 @@
+.menuPortofino {
+  padding: 20px;
+  padding-left: 30px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 200%;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+.menuPortofino .opcionesMenu .cervezas {
+  grid-area: cerveza;
+}
+
+.menuPortofino .opcionesMenu .tragos {
+  grid-area: tragos;
+}
+
+.menuPortofino .opcionesMenu .hamburguesas {
+  grid-area: hamburguesas;
+}
+
+.menuPortofino .opcionesMenu .pizzas {
+  grid-area: pizzas;
+}
+
+.menuPortofino .opcionesMenu .snacks {
+  grid-area: snacks;
+}
+
+.menuPortofino .opcionesMenu .picadas {
+  grid-area: picadas;
+}
+
+.menuPortofino .fotoTrago {
+  border-radius: 45%;
+}
+
+.menuPortofino .fotoCerveza {
+  border-radius: 45%;
+  margin-bottom: 25%;
+}
+
+.menuPortofino .fotoHamburguesa {
+  border-radius: 45%;
+}
+
+.menuPortofino .fotoPizza {
+  border-radius: 45%;
+}
+
+.menuPortofino .fotoPicada {
+  border-radius: 45%;
+}
+
+.menuPortofino .fotoSnack {
+  border-radius: 45%;
+}
+
+.menuPortofino .fotoCerveza:hover {
+  opacity: 0.5;
+}
+
+.menuPortofino .fotoHamburguesa:hover {
+  opacity: 0.5;
+}
+
+.menuPortofino .fotoPizza:hover {
+  opacity: 0.5;
+}
+
+.menuPortofino .fotoSnack:hover {
+  opacity: 0.5;
+}
+
+.menuPortofino .fotoTrago:hover {
+  opacity: 0.5;
+}
+
+.menuPortofino .fotoPicada:hover {
+  opacity: 0.5;
+}
+
+.opcionesDetalladas {
+  font-size: 30px;
+  margin-left: 10px;
+  color: white;
+  margin-bottom: 1%;
+}
+
+.opcionesDetalladas #NuestrasCervezas {
+  background-image: url(/fondofooter.png);
+  padding: 2%;
+  color: white;
+  margin: 1%;
+}
+
+.opcionesDetalladas #Tragos {
+  background-image: url(/fondofooter.png);
+  padding: 2%;
+  color: white;
+  margin: 1%;
+}
+
+.opcionesDetalladas #Hamburguesas {
+  background-image: url(/fondofooter.png);
+  padding: 2%;
+  color: white;
+  margin: 1%;
+}
+
+.opcionesDetalladas #Pizzas {
+  background-image: url(/fondofooter.png);
+  padding: 2%;
+  color: white;
+  margin: 1%;
+}
+
+.opcionesDetalladas #Picadas {
+  background-image: url(/fondofooter.png);
+  padding: 2%;
+  color: white;
+  margin: 1%;
+}
+
+.opcionesDetalladas #Snacks {
+  background-image: url(/fondofooter.png);
+  padding: 2%;
+  color: white;
+  margin: 1%;
+}
+
+.opcionesDetalladas table {
+  padding: 1%;
+  margin: 1%;
+  margin-left: 5%;
+  text-align: center;
+  color: white;
+}
+
+.opcionesDetalladas table th {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 90%;
+  border: white 1px solid;
+}
+
+.opcionesDetalladas table td {
+  border: white 1px solid;
+}
+
+.opcionesDetalladas .opcionesPicadas {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 2%;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.opcionesDetalladas .opcionesPicadas .descripcionPicadas {
+  font-size: 60%;
+  margin: 5%;
+}
+
+.opcionesDetalladas .opcionesHamburguesas {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 200%;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  gap: 3%;
+  padding: 3%;
+  font-size: 90%;
+}
+
+@media only screen and (max-width: 768px) {
+  .menuPortofino {
+    width: 110%;
+    height: 200%;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[3];
+        grid-template-rows: repeat(3, 1fr);
+    padding-left: 10%;
+    padding-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .opcionesDetalladas {
+    font-size: 80%;
+    margin-left: 1px;
+  }
+}
+
+.formulario {
+  font-size: 200%;
+  padding: 10%;
+  padding-top: 3%;
+  color: white;
+}
+
+.formulario .tituloFormulario {
+  padding-bottom: 3%;
+  text-decoration: underline;
+}
+
+.formulario .mensaje {
+  padding-bottom: 3%;
+}
+
+.formulario .dejaTuMensaje {
+  padding-top: 5%;
+}
+
+.DatosContacto {
+  font-size: 200%;
+  padding-left: 10%;
+  padding-bottom: 10%;
+}
+
+.DatosContacto .TituloDatos {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .formulario {
+    font-size: 100%;
+  }
+  .formulario .tituloFormulario {
+    font-size: 130%;
+  }
+  .formulario .mensaje {
+    padding-bottom: 3%;
+  }
+  .DatosContacto {
+    font-size: 100%;
+    padding-left: 10%;
+    padding-bottom: 8%;
+  }
+}
+
+nav {
+  background-color: #2e2c2c;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav .listaMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: wrap;
+          flex-direction: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .listaMenu li a {
+  width: 90%;
+  text-decoration: none;
+  color: white;
+}
+
+nav .listaMenu li a:hover {
+  text-decoration: underline;
+}
+
+nav .menu {
+  display: inline-block;
+  padding: 1%;
+  margin-left: 2%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 120%;
+  width: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  nav .listaMenu {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  nav .listaMenu li a {
+    width: 80%;
+  }
+  nav .menu {
+    margin-left: 0%;
+    font-size: 80%;
+  }
+}
+
+* {
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  background-color: black;
+  color: white;
+  height: 40%;
+  display: block;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo1 {
+  width: 30%;
+  height: 30%;
+}
+
+.video1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 10%;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  padding-top: 3%;
+}
+
+.nosotros {
+  border: 1%;
+  background-image: url(/fondofooter.png);
+  padding-bottom: 3%;
+}
+
+.nosotros .titulo {
+  color: white;
+  font-size: 180%;
+  text-align: center;
+  padding: 2% 0% 0px 0px;
+  text-transform: uppercase;
+}
+
+.nosotros .presentacionIndex {
+  text-align: center;
+  word-spacing: 6px;
+  letter-spacing: 2px;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 130%;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  color: white;
+}
+
+.seccionTres {
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: black 1px solid;
+}
+
+.seccionTres .div1 {
+  position: relative;
+}
+
+.seccionTres .div1 .vermenu {
+  position: absolute;
+  top: 40%;
+  right: 35%;
+}
+
+.seccionTres .div1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 250%;
+  border: black 2px solid;
+}
+
+.seccionTres .div1 a:hover {
+  background-color: black;
+  color: white;
+}
+
+.seccionTres .div2 {
+  position: relative;
+}
+
+.seccionTres .div2 .reservar {
+  position: absolute;
+  top: 40%;
+  right: 35%;
+}
+
+.seccionTres .div2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 250%;
+  border: black 2px solid;
+}
+
+.seccionTres .div2 a:hover {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  color: white;
+  background-image: url("/fondofooter.png");
+}
+
+footer .seguinos {
+  font-family: 'Nanum Myeongjo', serif;
+  text-align: center;
+  font-size: 28px;
+}
+
+footer .RedesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .RedesSociales .Red {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+}
+
+footer .direccion {
+  font-size: 130%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.SeccionGaleria .TituloGaleria {
+  font-size: 300%;
+  font-family: 'Satisfy'sans-serif;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-right: 50%;
+  background-image: url(/fondofooter.png);
+  margin-top: 2%;
+}
+
+.SeccionGaleria .galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 1%;
+  background-color: black;
+}
+
+.SeccionGaleria .galeria .foto {
+  width: 320px;
+  height: 320px;
+  margin: 30px;
+}
+
+.SeccionGaleria .galeria .foto:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.seccionUbicacion {
+  color: white;
+  text-align: center;
+}
+
+.seccionUbicacion .TituloUbicacion {
+  text-align: center;
+  font-size: 210%;
+  padding: 5%;
+}
+
+.seccionUbicacion .direccion {
+  font-size: 130%;
+  padding-bottom: 3%;
+}
+
+.seccionUbicacion .mapa {
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .nosotros .titulo {
+    font-size: 120%;
+  }
+  .nosotros .presentacionIndex {
+    padding: 1% 10% 2% 10%;
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    height: 60%;
+  }
+  .logo1 {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .SeccionGaleria .TituloGaleria {
+    font-size: 120%;
+    margin-right: 20%;
+    margin-top: 4%;
+  }
+  .SeccionGaleria .galeria .foto {
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+  }
+  .SeccionGaleria .galeria .foto:hover {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .seccionUbicacion .TituloUbicacion {
+    font-size: 110%;
+    padding: 5%;
+  }
+  .seccionUbicacion .direccion {
+    font-size: 100%;
+    padding-bottom: 3%;
+  }
+  .seccionUbicacion iframe {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .seccionTres {
+    display: -ms-grid;
+    display: grid;
+  }
+  .seccionTres .div1 {
+    position: relative;
+  }
+  .seccionTres .div1 .vermenu {
+    position: absolute;
+    top: 40%;
+    right: 33%;
+  }
+  .seccionTres .div1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    border: black 2px solid;
+  }
+  .seccionTres .div1 a:hover {
+    background-color: black;
+    color: white;
+  }
+  .seccionTres .div2 {
+    position: relative;
+  }
+  .seccionTres .div2 .reservar {
+    position: absolute;
+    top: 40%;
+    right: 33%;
+  }
+  .seccionTres .div2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    border: black 2px solid;
+  }
+  .seccionTres .div2 a:hover {
+    background-color: black;
+    color: white;
+  }
+}

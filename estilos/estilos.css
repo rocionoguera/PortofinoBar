@@ -1,0 +1,397 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box
+}
+header{
+background-color: black;
+color: white;
+height: 30%;}
+.logo{
+    display: block;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.logo1{
+    width: 30%;
+    height: 30%;
+}
+
+section{
+    background-color: black;
+    color: white;
+
+}    
+nav{
+    background-color: rgb(46, 44, 44);
+}
+.listaMenu{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.listaMenu li a{
+    width: 90%;
+    text-decoration: none;
+    color: white;
+}
+
+.videoPresentacion{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: stretch;
+    padding-top: 5%;
+    padding-bottom: 5%;
+   
+}
+
+.listaMenu li a:hover{
+    text-decoration: underline;    
+
+}
+.menu{
+    display: inline-block;
+    padding: 1%;
+    margin-left: 2%;
+    font-family: 'Josefin Sans', sans-serif;
+        font-size: 22px;
+    width: 15%;
+ }
+
+.titulo{
+    color: #b38a10;
+    font-size: 32px;
+    text-align: center;
+    padding: 0px 5px 0px 0px; 
+}
+.presentacionIndex{
+    text-align: center;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+   padding-left: 25%;
+   padding-right: 25%;
+    font-size: 20px;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    color:white;}
+
+.SeccionTres{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.div1{
+    background-image: url(/a32ee94d-604d-4b88-b585-4285828673c7.JPG);
+}
+
+}
+.QuieroReservar a{
+    text-decoration: none;
+    color: white;
+    background-color:
+   black ;
+    padding: 3%;
+}
+
+.QuieroReservar{
+    font-size: 200%;
+    text-align: center;
+    padding:10%;
+    font-family: 'Nanum Myeongjo', serif;
+    position: absolute;
+    top: 30%;
+    right: 65%;
+    
+}
+    .QuieroReservar :hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    border: double 30% #5c5201;
+    
+}
+.VerMenu a{
+    text-decoration: none;
+    color: white;
+    background-color:
+   black ;
+    padding: 3%;
+}
+.VerMenu{
+    font-size: 200%;
+    text-align: center;
+    padding:10%;
+    font-family: 'Nanum Myeongjo', serif;
+    position: absolute;
+    top: 30%;
+    right: 65%;
+    margin-top: 20%;
+    margin-left: 40%;
+
+}
+.VerMenu :hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    border: double 30% #5c5201;
+    
+}
+body{
+    font-family: 'Nanum Myeongjo', serif}
+
+.nosotros{
+ border:1%;
+background-image: url(/fondofooter.png);
+padding-bottom: 3%;
+
+}
+
+
+
+.titulo{
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+    font-size: 250%;
+    padding: 1% ;
+    padding-top: 3%;
+}
+
+.direccion{
+text-align: center;
+}
+
+.menuFotos{
+    padding:5% 20% 10% 30%;
+}
+.mapa{
+    padding-left: 28%;
+    padding-bottom: 5%;
+}
+.formulario{
+    font-size: 200%;
+padding: 10%;
+padding-top: 3%;}
+.DatosContacto{
+    font-size: 200%;
+    padding-left:10%;
+    padding-bottom: 10%;
+}
+.TituloDatos
+{
+    text-decoration: underline;
+}
+.tituloFormulario{
+    padding-bottom: 3%;
+    text-decoration: underline;
+}
+.mensaje{
+    padding-bottom: 3%;
+}
+.dejaTuMensaje{
+    padding-top: 5%;
+}
+
+footer{
+    color: white;
+    background-image: url("/fondofooter.png");
+}
+.seguinos{
+font-family: 'Nanum Myeongjo', serif;
+text-align: center;
+font-size: 28px;
+}
+.RedesSociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Red{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+.foto{
+    width: 320px;
+    height: 320px;
+    margin: 30px;
+}
+.TituloGaleria{
+    font-size: 300%;
+    font-family: 'Satisfy'sans-serif;
+    color:white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 50%;
+    background-image: url(/fondofooter.png);
+}
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 1%;
+    background-color: black;
+
+}
+.menuPortofino{
+    padding: 20px;
+    padding-left: 30px;
+    align-content: center;
+}
+.menuPortofino{
+    display: grid;
+    width: 100%;
+    height: 200%;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(2,1fr);
+   padding-left: 15%;
+   padding-top: 5%;
+  
+}
+.opcionesMenu .cervezas{
+    grid-area: cerveza;
+}
+.opcionesMenu .tragos{
+    grid-area: tragos;  
+}
+.opcionesMenu .hamburguesas{
+    grid-area: hamburguesas;
+
+}
+.opcionesMenu .pizzas{
+    grid-area: pizzas;
+}
+.opcionesMenu .snacks{
+    grid-area: snacks; 
+}
+.opcionesMenu .picadas{
+    grid-area: picadas;
+    
+}
+
+
+.opcionesDetalladas{
+    font-size: 30px;
+    margin-left: 10px;
+}
+#NuestrasCervezas{
+    background-image: url(/fondofooter.png);
+    padding: 2%;
+    margin-right: 50%;
+}
+#Tragos{
+    background-image: url(/fondofooter.png);
+    padding: 2%;
+    margin-right: 50%;
+
+}
+
+#Hamburguesas
+    {
+        background-image: url(/fondofooter.png);
+        padding: 2%;
+        margin-right: 50%;
+
+    }
+#Pizzas{
+    background-image: url(/fondofooter.png);
+    padding: 2%;
+    margin-right: 50%;
+
+}
+#Picadas{
+    background-image: url(/fondofooter.png);
+    padding: 2%;
+    margin-right: 50%;
+
+}
+#Snacks{
+    background-image: url(/fondofooter.png);
+    padding: 2%;
+    margin-right: 50%;
+
+}
+.listatragos{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.foto:hover{
+    transform: translate(20px, 20px);
+}
+
+.TituloUbicacion{
+    text-align: center;
+    font-size: 210%;
+    padding: 5%;
+}
+.direccion{
+    font-size: 130%;
+    padding-bottom: 3%;
+}
+.fotoTrago{
+    border-radius: 45%;
+}
+.fotoCerveza{
+    border-radius: 45%;
+    margin-bottom: 25%;
+}
+.fotoHamburguesa{
+    border-radius: 45%;
+}
+.fotoPizza{
+    border-radius: 45%;
+}
+.fotoPicada{
+    border-radius: 45%;
+}
+.fotoSnack{
+    border-radius: 45%;
+}
+.fotoCerveza:hover{
+    opacity: 0.5;
+}
+.fotoHamburguesa:hover{
+    opacity: 0.5;
+}.fotoPizza:hover{
+    opacity: 0.5;
+}.fotoSnack:hover{
+    opacity: 0.5;
+}.fotoTrago:hover{
+    opacity: 0.5;
+}
+.fotoPicada:hover{
+    opacity: 0.5;
+}
+
+.textoMenu{
+    font-size: 140%;
+    margin: 15px;
+    text-align: center;
+    font-weight: bold ;
+}
+th{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+}
+.opcionesDetalladas{
+    padding-top: 10px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+table{
+    padding: 20px;
+    margin:20px;
+    margin-left: 5%;
+    text-align: center;
+}
+.descripcionCervezas{
+    font-size: 20px;
+}
