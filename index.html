@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <title>Portofino Bar</title>
    
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
@@ -15,25 +16,49 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header class="logo">
     <img class="logo1"
     src="fotos/logoportofino.png" alt="logo" >
    
-</header>
-<nav>
-    <ul class="listaMenu">
-        <li class="menu inicio"> <a href="index.html"> Inicio</a></li>
-        <li class="menu"> <a href="galeria.html"> Galeria</a></li>
-        <li class="menu"> <a href="menu.html"> Menú</a></li>
-        <li class="menu"><a href="ubicación.html"> Ubicación</a></li>
-        <li class="menu contacto"> <a href="Contacto.html"> Contacto</a></li>
-    </ul>
+
+    <nav class="navbar navegador navbar-expand-lg menuNavegacion col-10">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="logo" src=></a>
+    <button class="navbar-toggler boton collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon iconotoggler">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"></path>
+            </svg>
+        </span>
+    </button>
+    <div class="navbar-collapse listaMenu collapse" id="navbarNavDropdown" style="">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link m-3" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link m-3" href="galeria.html">Galeria</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link m-3" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link m-3" href="ubicacion.html">Ubicación</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link m-3" href="contacto.html">Contacto</a>
+        </li>
+     
+    </div>
+    </div>
 </nav>
+</header>
     <section>
         <article class="videoPresentacion">
-          <video class="video1" src="fotos/9c2d1115-fc07-469a-af3e-9ea2e7a6e8e4.MP4" width="20%" autoplay controls loop></video>
+          <video class="video1" src="fotos/9c2d1115-fc07-469a-af3e-9ea2e7a6e8e4.MP4" alt="video presentacion" width="20%" autoplay controls loop></video>
         </article>
 
         <article class="nosotros">
@@ -51,19 +76,17 @@
                 <p class="vermenu"> <a href="menu.html">
                     VER MENÚ</a>
                 </p>
-                <img src="fotos/a32ee94d-604d-4b88-b585-4285828673c7.JPG" width="100%">
+                <img src="fotos/a32ee94d-604d-4b88-b585-4285828673c7.JPG" alt="foto menu" width="100%">
             </div>
             <div class="div2">
                 <p class="reservar"><a href="#">
                     RESERVAR</a>
                 </p>
-                <img src="fotos/PHOTO-2020-11-01-15-19-38.jpg" width="100%">
+                <img src="fotos/PHOTO-2020-11-01-15-19-38.jpg" alt="foto terraza" width="100%">
 
             </div>
         </article>
-
-  
-         </section>
+    </section>
 <footer>
 
     <h4 class="seguinos">Seguinos en</h4>
@@ -71,10 +94,10 @@
     <article class="RedesSociales">
         <div class="Red instagram">
             <a href="https://www.instagram.com/portofinoeventos/">
-            <img src="fotos/instagram-logo-6.png" class="instagram" width="60%"></a>
+            <img src="fotos/instagram-logo-6.png" class="instagram" alt="instagram" width="60%"></a>
         </div>
        <div class="Red facebook"><a href="https://www.facebook.com/portofinobar_-100361361858139">
-            <img  src="fotos/facebook-logo-2-1.png" width="60%"></a>
+            <img  src="fotos/facebook-logo-2-1.png" alt="facebook" width="60%"></a>
         </div>
             
         <div class="Red youtube"><a href="#">
@@ -82,10 +105,10 @@
         </div>
     </article>
         <p class="direccion">Av. Eva Perón 1017, Temperley, Buenos Aires.
-                Tel: 1130261722</p>
-
-
-           </footer>
-
+                Tel: 1130261722
+        </p>
+</footer>
+           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
 </html>

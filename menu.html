@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link href="csss/estilos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
@@ -17,45 +18,66 @@
 </head>
 <body>
     <header class="logo">
-    <img class="logo1"
-    src="fotos/logoportofino.png" alt="logo" width="25%">
-</header>
-
-<nav>
-    <ul class="listaMenu">
-        <li class="menu"> <a href="index.html"> Inicio</a></li>
-        <li class="menu"> <a href="galeria.html"> Galeria</a></li>
-        <li class="menu"> <a href="menu.html"> Menú</a></li>
-        <li class="menu"><a href="ubicación.html"> Ubicación</a></li>
-        <li class="menu"> <a href="Contacto.html"> Contacto</a></li>
-    </ul>
-</nav>
-
+        <img class="logo1"
+        src="fotos/logoportofino.png" alt="logo" >
+       
+    
+        <nav class="navbar navegador navbar-expand-lg menuNavegacion col-10">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="logo" src=></a>
+        <button class="navbar-toggler boton collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon iconotoggler">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"></path>
+                </svg>
+            </span>
+        </button>
+        <div class="navbar-collapse listaMenu collapse" id="navbarNavDropdown" style="">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link m-3" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link m-3" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link m-3" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link m-3" href="ubicacion.html">Ubicación</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link m-3" href="contacto.html">Contacto</a>
+            </li>
+         
+        </div>
+        </div>
+    </nav>
+    </header>
 <section class="menuPortofino">
 <div class="opcionesMenu cervezas"> <a href="#NuestrasCervezas">
-   <img class="fotoCerveza" src="fotos/2.png" width="65%" >
+   <img class="fotoCerveza" src="fotos/2.png" alt="Opción cervezas" width="65%" >
 </a>
    
 </div>
 <div class="opcionesMenu tragos"><a href="#Tragos">
-    <img class="fotoTrago" src="fotos/tragos.png" width="65%"></a>
-    
+    <img class="fotoTrago" src="fotos/tragos.png" alt="Opción tragos" width="65%"></a>
 </div>
 
 <div class="opcionesMenu hamburguesas"> <a href="#Hamburguesas">
-    <img class="fotoHamburguesa" src="fotos/1.png" width="65%"></a>
+    <img class="fotoHamburguesa" alt="Opción hamburguesas" src="fotos/1.png" width="65%"></a>
 
 </div>
 <div class="opcionesMenu pizzas">  <a href="#Pizzas">
-    <img class="fotoPizza" src="fotos/5320e0b4-678d-4c5d-a248-bd64678a27ff.JPG" width="65%"></a>
+    <img class="fotoPizza" alt="Opción pizzas" src="fotos/menu3.JPG" width="65%"></a>
   
 </div>
 <div class="opcionesMenu picadas">  <a href="#Picadas">
-    <img class="fotoPicada" src="fotos/foto1.JPG" width="65%"></a>
+    <img class="fotoPicada" alt="Opción picadas" src="fotos/foto1.JPG" width="65%"></a>
   
 </div>
 <div class="opcionesMenu snacks"> <a href="#Snacks">
-    <img class="fotoSnack" src="fotos/snacks.JPG" width="65%"></a>
+    <img class="fotoSnack" src="fotos/snacks.JPG" alt="Opción snacks" width="65%"></a>
 </div>
 </section>
 <section class="SeccionDetallada" >
@@ -246,20 +268,21 @@
            <div class="Red instagram">
             <a href="https://www.instagram.com/portofinoeventos/">
         <img src="fotos/instagram-logo-6.png" 
-        class="instagram" 
-       width="60%">
+        class="instagram" alt="instagram" width="60%">
     </a>
 </div>
     <div class="Red facebook"><a href="https://www.facebook.com/portofinobar_-100361361858139">
 
-       <img  src="fotos/facebook-logo-2-1.png" width="60%"></a>
+       <img  src="fotos/facebook-logo-2-1.png" alt="facebook" width="60%"></a>
     </div>
     <div class="Red youtube"><a href="#">
-       <img  src="fotos/youtube-logo-5-2.png" alt="youtube"  width="70%">
+       <img  src="fotos/youtube-logo-5-2.png" alt="youtube" width="70%">
     </a></div>
        </article>
        <p class="direccion">Av. Eva Perón 1017, Temperley, Buenos Aires.
         Tel: 1130261722</p>
    </footer>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
 </html>
