@@ -520,7 +520,7 @@ body {
 
 footer {
   color: white;
-  background-image: url(/fotos/fondofooter.JPG);
+  background-image: url("https://github.com/rocionoguera/portofinobar/blob/master/fondofooter.png");
   margin: 0px;
   padding: 0px;
 }
