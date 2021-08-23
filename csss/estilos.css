@@ -96,14 +96,14 @@
 }
 
 .opcionesDetalladas #NuestrasCervezas {
-  background-image: url(/fotos/fondofooter.png);
+  background-image: url(.fotos/fondofooter.png);
   padding: 2%;
   color: white;
   margin: 1%;
 }
 
 .opcionesDetalladas #Tragos {
-  background-image: url(/fotos/fondofooter.png);
+  background-image: url(/.fondo/fondofooter.png);
   padding: 2%;
   color: white;
   margin: 1%;
@@ -520,7 +520,7 @@ body {
 
 footer {
   color: white;
-  background-image: url(./fotos/fondofooter.png);
+  background-image: url(/fondo/fondofooter.png);
   margin: 0px;
   padding: 0px;
 }
