@@ -96,42 +96,42 @@
 }
 
 .opcionesDetalladas #NuestrasCervezas {
-  background-image: url(.fotos/fondofooter.png);
+  background-image: url(./../fondofooter.png);
   padding: 2%;
   color: white;
   margin: 1%;
 }
 
 .opcionesDetalladas #Tragos {
-  background-image: url(/.fondo/fondofooter.png);
+  background-image: url(./../fondofooter.png);
   padding: 2%;
   color: white;
   margin: 1%;
 }
 
 .opcionesDetalladas #Hamburguesas {
-  background-image: url(/fotos/fondofooter.png);
+  background-image: url(./../fondofooter.png);
   padding: 2%;
   color: white;
   margin: 1%;
 }
 
 .opcionesDetalladas #Pizzas {
-  background-image: url(/fotos/fondofooter.png);
+  background-image: url(./../fondofooter.png);
   padding: 2%;
   color: white;
   margin: 1%;
 }
 
 .opcionesDetalladas #Picadas {
-  background-image: url(/fotos/fondofooter.png);
+  background-image: url(./../fondofooter.png);
   padding: 2%;
   color: white;
   margin: 1%;
 }
 
 .opcionesDetalladas #Snacks {
-  background-image: url(/fotos/fondofooter.png);
+  background-image: url(./../fondofooter.png);
   padding: 2%;
   color: white;
   margin: 1%;
