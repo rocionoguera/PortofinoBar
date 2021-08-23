@@ -239,7 +239,7 @@
 }
 
 .formulario .newsletter {
-  padding-top: 3%;
+  padding-bottom: 6%;
 }
 
 .DatosContacto {
@@ -520,7 +520,9 @@ body {
 
 footer {
   color: white;
-  background-image: url(/fotos/fondofooter.png);
+  background-image: url(/fondofooter.png);
+  margin: 0px;
+  padding: 0px;
 }
 
 footer .seguinos {
