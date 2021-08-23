@@ -1,0 +1,72 @@
+.logo{
+    background-color: black;
+    color: white;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .logo1{
+        width: 30%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        margin-left: 36%;
+    }
+    nav{
+        background-color: $ColorNav;
+        display: flex;
+        margin-left: 20%;
+    }
+    .listaMenu{
+        padding-left: 20%;
+    }
+    .listaMenu li a{
+        width: 10%;
+        text-decoration: none;
+        color: white;
+    }
+    .listaMenu li a:hover{
+        text-decoration: underline;
+    }
+    .menu{
+        display: inline-block;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 120%;
+        width: 15%;
+    }
+}
+@media only screen and (max-width:768px){
+    .logo{
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .logo1{
+            width: 40%;
+            height: 40%;
+            display: flex;
+            margin-left: 4%;
+            margin-top: 2%;
+        }   
+        nav{
+            margin-left: 1%;
+            margin-right: 1%;
+        }
+        .menu{
+            display: inline-block;
+            padding: 1%;
+            margin-left: 0%;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 120%;
+            width: 1%;
+        }
+        .navegador{
+            background-color: black;
+            .boton{
+                color: white;
+                border: solid white;
+                margin-right: 20%;
+            }
+        }
+    }
+}

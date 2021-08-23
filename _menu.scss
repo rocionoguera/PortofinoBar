@@ -1,0 +1,162 @@
+.menuPortofino{
+    padding: 20px;
+    padding-left: 30px;
+    align-content: center;
+    display: grid;
+    width: 100%;
+    height: 200%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding-left: 15%;
+    padding-top: 5%;
+    .opcionesMenu .cervezas{
+        grid-area: cerveza;
+    }
+    .opcionesMenu .tragos{
+        grid-area: tragos;  
+    }
+    .opcionesMenu .hamburguesas{
+        grid-area: hamburguesas;
+    
+    }
+    .opcionesMenu .pizzas{
+        grid-area: pizzas;
+    }
+    .opcionesMenu .snacks{
+        grid-area: snacks; 
+    }
+    .opcionesMenu .picadas{
+        grid-area: picadas;
+    }
+    .fotoTrago{
+        border-radius: 45%;
+    }
+    .fotoCerveza{
+        border-radius: 45%;
+        margin-bottom: 25%;
+    }
+    .fotoHamburguesa{
+        border-radius: 45%;
+    }
+    .fotoPizza{
+        border-radius: 45%;
+    }
+    .fotoPicada{
+        border-radius: 45%;
+    }
+    .fotoSnack{
+        border-radius: 45%;
+    }
+    .fotoCerveza:hover{
+        opacity: 0.5;
+    }
+    .fotoHamburguesa:hover{
+        opacity: 0.5;
+    }.fotoPizza:hover{
+        opacity: 0.5;
+    }.fotoSnack:hover{
+        opacity: 0.5;
+    }.fotoTrago:hover{
+        opacity: 0.5;
+    }
+    .fotoPicada:hover{
+        opacity: 0.5;
+    }
+}
+.opcionesDetalladas{
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+    margin-bottom: 1%;
+    #NuestrasCervezas{
+        background-image: url(./../fondofooter.png);
+        margin-right: 20px;
+        padding: 2%;
+        color: white;
+        margin:1%
+    }
+    #Tragos{
+        background-image: url(./../fondofooter.png);
+        padding: 2%;
+        color: white;
+        margin: 1%;
+    }
+    #Hamburguesas{
+        background-image:url(./../fondofooter.png);
+        padding: 2%;
+        color: white;
+        margin:1%;
+    }
+    #Pizzas{
+        background-image: url(./../fondofooter.png);
+        padding: 2%;
+        color: white;
+        margin:1%;
+    }
+    #Picadas{
+        background-image: url(./../fondofooter.png);
+        padding: 2%;
+        color: white;
+        margin:1%;
+    }
+    #Snacks{
+        background-image: url(./../fondofooter.png);
+        padding: 2%;
+        color: white;
+        margin:1%;
+    }
+    table{
+        padding: 1%;
+        margin:1%;
+        margin-left: 5%;
+        text-align: center;
+        color: white;
+    th{
+        font-family: 'Nanum Myeongjo', serif;
+        font-size: 90%;
+        border: white 1px solid;
+    }
+    td{
+        border: white 1px solid;
+    }
+    }
+    .opcionesPicadas{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        margin: 2%;
+        align-content: space-between;
+        .descripcionPicadas{
+            font-size: 60%;
+            margin: 5%;
+        }
+    }
+    .opcionesHamburguesas{
+        text-align: center;
+        display: grid;
+        width: 100%;
+        height: 200%;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap:3%;
+        padding: 3%;
+        font-size: 90%;
+    }
+}
+@media only screen and (max-width:768px){
+    .menuPortofino{
+        width: 110%;
+        height: 200%;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+}
+@media only screen and (max-width:768px){
+    .opcionesDetalladas{
+        font-size: 80%;
+        margin-left: 1px
+    }
+}
+

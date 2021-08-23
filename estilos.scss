@@ -1,0 +1,262 @@
+@import "variables";
+@import "menu";
+@import "contacto";
+@import "header";
+@import "galeria";
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.video1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    justify-content: stretch;
+    padding-top: 3%;
+}
+.nosotros{
+    border:1%;
+    background-image: url(./../fondofooter.png);
+    padding-bottom: 3%;
+    margin: 10% 5% 7% 5%;
+    border-radius: 7%;
+    .titulo{
+        color: white;
+        font-size: 180%;
+        text-align: center;
+        padding: 5% 0% 0px 0px; 
+        text-transform: uppercase;
+    }
+    .presentacionIndex{
+        text-align: center;
+        word-spacing: 6px;
+        letter-spacing: 2px;
+        padding-left: 25%;
+        padding-right: 25%;
+        font-size: 130%;
+        padding-bottom: 2%;
+        padding-top: 1%;
+        color:white;
+    }
+}
+.seccionTres{
+    color: black;
+    display: flex; 
+    border: black 1px solid;  
+    margin: 5%;
+    .div1{
+        position: relative;
+        margin-right: 2%;
+        .vermenu{
+            position: absolute;
+            top:40%;
+            right: 35%;
+        }
+    }
+    .div1 a{
+        text-decoration: none;
+        color: black;
+        font-size: 180%;
+        border: black 2px solid;
+    }
+    .div1 a:hover{
+        background-color:black;
+        color:white;
+    }
+    .div2{
+        position: relative;
+        .reservar{
+            position: absolute;
+            top:40%;
+            right: 35%;
+        }
+    }
+    .div2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 180%;
+        border: black 2px solid;
+    }
+    .div2 a:hover{
+        background-color:black;
+        color:white;
+    }
+}
+footer{
+    color: white;
+    background-image: url(./../fondofooter.png);
+    margin:0px;
+    padding: 0px;
+    .seguinos{
+        font-family: 'Nanum Myeongjo', serif;
+        text-align: center;
+        font-size: 28px;
+    }
+    .RedesSociales{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .Red{
+            width: 50px;
+            height: 50px;
+            margin: 20px;
+        }
+    }
+    .direccion{
+        font-size: 130%;
+        padding-bottom: 3%;
+        text-align: center;
+    }
+}
+
+.seccionUbicacion{
+    color: white;
+    text-align: center;
+    .TituloUbicacion{
+        text-align: center;
+        font-size: 210%;
+        padding: 5%;
+    }
+    .direccion{
+        font-size: 130%;
+        padding-bottom: 3%;
+    }
+    .mapa{
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+}
+@media only screen and (max-width:768px){
+    .nosotros{
+        .titulo{
+            font-size: 100%;
+        }
+        .presentacionIndex{
+            padding: 1% 10% 2% 10%;
+            font-size: 80%;
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    .logo{
+        height: 60%;
+    }
+        .logo1{
+            width: 50%;
+            height: 50%;
+        }
+}
+@media only screen and (max-width:768px){
+    .SeccionGaleria{
+        .TituloGaleria{
+            font-size: 120%;
+            margin-right: 20%;
+            margin-top: 4%;
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    .seccionUbicacion{
+        .TituloUbicacion{
+            font-size: 110%;
+            padding: 5%;
+        }
+        .direccion{
+            font-size: 100%;
+            padding-bottom: 3%;
+        }
+        iframe{
+            width:90%;
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    .seccionTres{ 
+        display: grid; 
+        .div1{
+            position: relative;
+            .vermenu{
+                position: absolute;
+                top:40%;
+                right: 33%;
+            }
+        }
+        .div1 a{
+            text-decoration: none;
+            color: black;
+            font-size: 150%;
+            border: black 2px solid;
+        }
+        .div1 a:hover{
+            background-color:black;
+            color:white;
+        }
+        .div2{
+            position: relative;
+            .reservar{
+                position: absolute;
+                top:40%;
+                right: 33%;
+            }
+        }
+        .div2 a{
+            text-decoration: none;
+            color: black;
+            font-size: 150%;
+            border: black 2px solid;
+        }
+        .div2 a:hover{
+            background-color:black;
+            color:white;
+        }
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .seccionTres{ 
+        display: grid; 
+        .div1{
+            position: relative;
+            .vermenu{
+                position: absolute;
+                top:40%;
+                right: 39%;
+            }
+        }
+        .div1 a{
+            text-decoration: none;
+            color: black;
+            font-size: 180%;
+            border: black 2px solid;
+        }
+        .div1 a:hover{
+            background-color:black;
+            color:white;
+        }
+        .div2{
+            position: relative;
+            .reservar{
+                position: absolute;
+                top:40%;
+                right: 39%;
+            }
+        }
+        .div2 a{
+            text-decoration: none;
+            color: black;
+            font-size: 180%;
+            border: black 2px solid;
+        }
+        .div2 a:hover{
+            background-color:black;
+            color:white;
+        }
+    }
+}
+
